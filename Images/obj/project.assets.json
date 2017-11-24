@@ -13231,11 +13231,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\flori\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\ImageTest\\Images\\Images.csproj",
+      "projectUniqueName": "C:\\Development\\images\\Images\\Images.csproj",
       "projectName": "Images",
-      "projectPath": "C:\\Users\\flori\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\ImageTest\\Images\\Images.csproj",
+      "projectPath": "C:\\Development\\images\\Images\\Images.csproj",
       "packagesPath": "C:\\Users\\flori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flori\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\ImageTest\\Images\\obj\\",
+      "outputPath": "C:\\Development\\images\\Images\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13254,8 +13254,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\flori\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\ImageTest\\Images.Service\\Images.Service.csproj": {
-              "projectPath": "C:\\Users\\flori\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\ImageTest\\Images.Service\\Images.Service.csproj"
+            "C:\\Development\\images\\Images.Service\\Images.Service.csproj": {
+              "projectPath": "C:\\Development\\images\\Images.Service\\Images.Service.csproj"
             }
           }
         }

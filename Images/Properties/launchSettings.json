@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:55786/",
+      "applicationUrl": "http://localhost:55786",
       "sslPort": 0
     }
   },
@@ -11,7 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/images",
+      "launchUrl": "api/images?url=https%3A%2F%2Fimg.buzzfeed.com%2Fbuzzfeed-static%2Fstatic%2F2016-01%2F7%2F11%2Fenhanced%2Fwebdr03%2Fenhanced-buzz-32618-1452185446-0.jpg",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -19,11 +19,11 @@
     "ImageTest": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/images?url=https%3A%2F%2Fimg.buzzfeed.com%2Fbuzzfeed-static%2Fstatic%2F2016-01%2F7%2F11%2Fenhanced%2Fwebdr03%2Fenhanced-buzz-32618-1452185446-0.jpg",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:55787/"
+      "applicationUrl": "http://localhost:55787"
     }
   }
 }

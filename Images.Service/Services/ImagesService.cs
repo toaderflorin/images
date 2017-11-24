@@ -53,7 +53,7 @@ namespace Images.Services
                     closestProfile = profile;
                 }
             }
-
+          
             return closestProfile;            
         }
     }

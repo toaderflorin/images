@@ -11,3 +11,16 @@ C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images\o
 C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images\obj\Debug\netcoreapp2.0\Images.AssemblyInfo.cs
 C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images\obj\Debug\netcoreapp2.0\Images.dll
 C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images\obj\Debug\netcoreapp2.0\Images.pdb
+C:\Development\images\Images\bin\Debug\netcoreapp2.0\Images.deps.json
+C:\Development\images\Images\bin\Debug\netcoreapp2.0\Images.runtimeconfig.json
+C:\Development\images\Images\bin\Debug\netcoreapp2.0\Images.runtimeconfig.dev.json
+C:\Development\images\Images\bin\Debug\netcoreapp2.0\Images.dll
+C:\Development\images\Images\bin\Debug\netcoreapp2.0\Images.pdb
+C:\Development\images\Images\bin\Debug\netcoreapp2.0\Images.Service.dll
+C:\Development\images\Images\bin\Debug\netcoreapp2.0\Images.Service.pdb
+C:\Development\images\Images\obj\Debug\netcoreapp2.0\Images.csprojResolveAssemblyReference.cache
+C:\Development\images\Images\obj\Debug\netcoreapp2.0\Images.csproj.CoreCompileInputs.cache
+C:\Development\images\Images\obj\Debug\netcoreapp2.0\Images.AssemblyInfoInputs.cache
+C:\Development\images\Images\obj\Debug\netcoreapp2.0\Images.AssemblyInfo.cs
+C:\Development\images\Images\obj\Debug\netcoreapp2.0\Images.dll
+C:\Development\images\Images\obj\Debug\netcoreapp2.0\Images.pdb

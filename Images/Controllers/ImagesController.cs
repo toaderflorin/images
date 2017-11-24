@@ -20,11 +20,11 @@ namespace Images.Controllers
         }
 
         [HttpGet]
-        public async Task<ColorProfile> Get(string img)
+        public async Task<ObjectResult> Get(string url)
         {
             using (var c = new HttpClient())
             {
-                c.BaseAddress = new Uri(img);
+                c.BaseAddress = new Uri(url);
 
                 var res = await c.GetAsync(string.Empty);
                 var content = res.Content;
@@ -34,7 +34,15 @@ namespace Images.Controllers
                 var bitmap = new Bitmap(image);
 
                 var closestProfile = _imagesService.GetProfileForImage(bitmap);
-                return closestProfile;
+               
+
+                if (closestProfile != null)
+                {                    
+                    return StatusCode(200, closestProfile);
+                } else
+                {
+                    return StatusCode(404, "A matching profile wasn't found.");
+                }                
             }            
         }
     }
