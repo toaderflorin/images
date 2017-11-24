@@ -1,0 +1,11 @@
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\bin\Debug\netcoreapp2.0\ImageTest.deps.json
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\bin\Debug\netcoreapp2.0\ImageTest.runtimeconfig.json
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\bin\Debug\netcoreapp2.0\ImageTest.runtimeconfig.dev.json
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\bin\Debug\netcoreapp2.0\ImageTest.dll
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\bin\Debug\netcoreapp2.0\ImageTest.pdb
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\obj\Debug\netcoreapp2.0\ImageTest.csproj.CoreCompileInputs.cache
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\obj\Debug\netcoreapp2.0\ImageTest.AssemblyInfoInputs.cache
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\obj\Debug\netcoreapp2.0\ImageTest.AssemblyInfo.cs
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\obj\Debug\netcoreapp2.0\ImageTest.dll
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\obj\Debug\netcoreapp2.0\ImageTest.pdb
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\ImageTest\obj\Debug\netcoreapp2.0\ImageTest.csprojResolveAssemblyReference.cache

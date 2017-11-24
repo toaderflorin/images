@@ -1,0 +1,9 @@
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images.Service\bin\Debug\netcoreapp2.0\Images.Service.deps.json
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images.Service\bin\Debug\netcoreapp2.0\Images.Service.dll
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images.Service\bin\Debug\netcoreapp2.0\Images.Service.pdb
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images.Service\obj\Debug\netcoreapp2.0\Images.Service.csproj.CoreCompileInputs.cache
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images.Service\obj\Debug\netcoreapp2.0\Images.Service.AssemblyInfoInputs.cache
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images.Service\obj\Debug\netcoreapp2.0\Images.Service.AssemblyInfo.cs
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images.Service\obj\Debug\netcoreapp2.0\Images.Service.dll
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images.Service\obj\Debug\netcoreapp2.0\Images.Service.pdb
+C:\Users\flori\OneDrive\Documents\Visual Studio 2017\Projects\ImageTest\Images.Service\obj\Debug\netcoreapp2.0\Images.Service.csprojResolveAssemblyReference.cache
