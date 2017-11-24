@@ -1,5 +1,5 @@
 # images
-The application was build with VS 2017 Community Edition. Make sure you clone the repo and restore the Nuget packages for the whole solution. The easiest way to run the aplication is to start the tests from the *Images.Tests* project.
+The application was build with VS 2017 Community Edition / .NET Core. Make sure you clone the repo and restore the Nuget packages for the whole solution. The easiest way to run the aplication is to start the tests from the *Images.Tests* project.
 
 ## Considerations
 For ease of maintainability and separation of concerns, the application has been split into three projects *Images*, *Images.Service* (which contains the service layer) and *Images.Tests*. This also makes it easy for the tests to reference the service.
