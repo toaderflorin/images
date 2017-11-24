@@ -38,7 +38,8 @@ namespace Images.Controllers
                 if (closestProfile != null)
                 {                    
                     return StatusCode(200, closestProfile);
-                } else
+                }
+                else
                 {
                     return StatusCode(404, "A matching profile wasn't found.");
                 }                
