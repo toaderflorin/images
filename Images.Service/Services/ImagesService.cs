@@ -36,7 +36,7 @@ namespace Images.Services
                 }
             }
 
-            var minDistance = 255.0;
+            var minDistance = 255.0; // cannot be bigger than this
 
             ColorProfile closestProfile = null;
 
