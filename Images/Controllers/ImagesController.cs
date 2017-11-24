@@ -35,7 +35,6 @@ namespace Images.Controllers
 
                 var closestProfile = _imagesService.GetProfileForImage(bitmap);
                
-
                 if (closestProfile != null)
                 {                    
                     return StatusCode(200, closestProfile);
