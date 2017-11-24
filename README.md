@@ -4,6 +4,8 @@ The application was build with VS 2017 Community Edition. Make sure you clone th
 ## Considerations
 For ease of maintainability and separation of concerns, the application has been split into three projects *Images*, *Images.Service* (which contains the service layer) and *Images.Tests*. This also makes it easy for the tests to reference the service.
 
+The color profiles are defined in the *appsettings.json* file, in a custom configuration section.
+
 ```
 "ProfilesConfig": {
   "Profiles": [
