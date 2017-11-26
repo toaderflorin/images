@@ -13,11 +13,20 @@ namespace Images.Services
     {
         private readonly ProfilesConfiguration _configuration;
 
+        /// <summary>
+        /// Public constructor.
+        /// </summary>
+        /// <param name="configuration">The color profile configuration object.</param>
         public ColorProfilesService(ProfilesConfiguration configuration)
         {
             _configuration = configuration;
         }
 
+        /// <summary>
+        /// Gets the matched color profile for the image.
+        /// </summary>
+        /// <param name="bitmap">The bitmap associated with the image.</param>
+        /// <returns>The matched color profile or null if none of them matches withing the required tolerance.</returns>
         public ColorProfile GetProfileForImage(Bitmap bitmap)
         {
             double totalPixels = bitmap.Height * bitmap.Width;        
