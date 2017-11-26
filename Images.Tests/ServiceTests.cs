@@ -35,7 +35,7 @@ namespace Images.Tests
         [TestMethod]
         public void Red()
         {                       
-            var image = Bitmap.FromFile("Images\\red.jpg");
+            var image = Image.FromFile("Images\\red.jpg");
             var bitmap = new Bitmap(image);
 
             var profile = _service.GetProfileForImage(bitmap);
@@ -46,7 +46,7 @@ namespace Images.Tests
         [TestMethod]
         public void Green()
         {
-            var image = Bitmap.FromFile("Images\\green.jpg");
+            var image = Image.FromFile("Images\\green.jpg");
             var bitmap = new Bitmap(image);
 
             var profile = _service.GetProfileForImage(bitmap);
@@ -57,7 +57,7 @@ namespace Images.Tests
         [TestMethod]
         public void NoMatch()
         {
-            var image = Bitmap.FromFile("Images\\sky.jpg");
+            var image = Image.FromFile("Images\\sky.jpg");
             var bitmap = new Bitmap(image);
 
             var profile = _service.GetProfileForImage(bitmap);

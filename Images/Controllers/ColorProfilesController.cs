@@ -12,7 +12,7 @@ namespace Images.Controllers
     [Route("api/images")]
     public class ColorProfilesController : Controller
     {
-        private ColorProfilesService _colorProfilesService;
+        private readonly ColorProfilesService _colorProfilesService;
 
         public ColorProfilesController(ColorProfilesService imagesService)
         {

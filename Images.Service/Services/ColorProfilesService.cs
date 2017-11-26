@@ -16,7 +16,7 @@ namespace Images.Services
         /// <summary>
         /// Public constructor.
         /// </summary>
-        /// <param name="configuration">The color profile configuration object.</param>
+        /// <param name="configuration">The profile configuration object.</param>
         public ColorProfilesService(ProfilesConfiguration configuration)
         {
             _configuration = configuration;
@@ -45,12 +45,15 @@ namespace Images.Services
                 }
             }
 
-            var minDistance = 255.0; // cannot be bigger than this
+            var minDistance = 256.0; // this is the limit
 
             ColorProfile closestProfile = null;
 
             foreach (var profile in this._configuration.Profiles)
             {
+                // we are using a pythagorean "distance"
+                // this is an arbitrary metric for the distance I chose, 
+                // but obviously it could have been something else
                 var distance = Math.Sqrt(
                     Math.Pow(rAverage - profile.R, 2) + 
                     Math.Pow(gAverage - profile.G, 2) + 
