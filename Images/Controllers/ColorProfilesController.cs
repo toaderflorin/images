@@ -9,14 +9,14 @@ using Images.Models;
 namespace Images.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Images")]
-    public class ImagesController : Controller
+    [Route("api/images")]
+    public class ColorProfilesController : Controller
     {
-        private ImagesService _imagesService;
+        private ColorProfilesService _colorProfilesService;
 
-        public ImagesController(ImagesService imagesService)
+        public ColorProfilesController(ColorProfilesService imagesService)
         {
-            _imagesService = imagesService;
+            _colorProfilesService = imagesService;
         }
 
         [HttpGet]
@@ -33,7 +33,7 @@ namespace Images.Controllers
                 var image = Image.FromStream(stream);
                 var bitmap = new Bitmap(image);
 
-                var closestProfile = _imagesService.GetProfileForImage(bitmap);
+                var closestProfile = _colorProfilesService.GetProfileForImage(bitmap);
                
                 if (closestProfile != null)
                 {                    

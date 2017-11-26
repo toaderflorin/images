@@ -23,8 +23,8 @@ namespace Images
             services.AddSingleton<IConfiguration>(Configuration);
             
             var section = Configuration.GetSection("ProfilesConfig").Get<ProfilesConfiguration>();
-            var imagesService = new ImagesService(section);
-            services.AddSingleton<ImagesService>(imagesService);
+            var imagesService = new ColorProfilesService(section);
+            services.AddSingleton<ColorProfilesService>(imagesService);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

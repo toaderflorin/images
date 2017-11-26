@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Images.Services
 {
-    public class ImagesService
+    public class ColorProfilesService
     {
         private readonly ProfilesConfiguration _configuration;
 
-        public ImagesService(ProfilesConfiguration configuration)
+        public ColorProfilesService(ProfilesConfiguration configuration)
         {
             _configuration = configuration;
         }

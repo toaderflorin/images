@@ -7,9 +7,9 @@ using System.Drawing;
 namespace Images.Tests
 {
     [TestClass]
-    public class ImageServiceTests
+    public class ServiceTests
     {
-        private ImagesService _service;
+        private ColorProfilesService _service;
         private ColorProfile _redProfile;
         private ColorProfile _greenProfile;
 
@@ -29,7 +29,7 @@ namespace Images.Tests
                 }
             };
 
-            _service = new ImagesService(config);
+            _service = new ColorProfilesService(config);
         }
 
         [TestMethod]
