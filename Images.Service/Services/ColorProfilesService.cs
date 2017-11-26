@@ -39,9 +39,9 @@ namespace Images.Services
                 for (var y = 0; y < bitmap.Height; y++)
                 {
                     var pixel = bitmap.GetPixel(x, y);
-                    rAverage += (double)(pixel.R) / totalPixels;
-                    gAverage += (double)(pixel.G) / totalPixels;
-                    bAverage += (double)(pixel.B) / totalPixels;
+                    rAverage += pixel.R / totalPixels;
+                    gAverage += pixel.G / totalPixels;
+                    bAverage += pixel.B / totalPixels;
                 }
             }
 
@@ -49,7 +49,7 @@ namespace Images.Services
 
             ColorProfile closestProfile = null;
 
-            foreach (var profile in this._configuration.Profiles)
+            foreach (var profile in _configuration.Profiles)
             {
                 // we are using a pythagorean "distance"
                 // this is an arbitrary metric for the distance I chose, 
