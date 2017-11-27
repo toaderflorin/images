@@ -2,7 +2,7 @@
 The application was build with VS 2017 Community Edition / .NET Core. Make sure you clone the repo and restore the Nuget packages for the whole solution. The easiest way to run the aplication is to start the tests from the *Images.Tests* project.
 
 ## Considerations
-For ease of maintainability and separation of concerns, the application has been split into three projects *Images*, *Images.Service* (which contains the service layer) and *Images.Tests*. This also makes it easy for the tests to reference the service.
+For ease of maintainability and separation of concerns, the application has been split into three projects *Images*, *Images.Service* (which contains the service layer) and *Images.Tests*. This also makes it easy for the tests to reference the service. I have also included XML comments in the service layer - since this is the layer with reusable components, it makes sense to have them here, but not so much in the tests or in the controllers.
 
 The color profiles are defined in the *appsettings.json* file, in a custom configuration section.
 
@@ -26,7 +26,7 @@ The color profiles are defined in the *appsettings.json* file, in a custom confi
 }
 
 ```
-The API can be called like this (the url of the image needs to be url encoded):
+The API can be called like this (the URL of the image needs to be encoded):
 ```
 http://localhost:55786?api/images?url=https%3A%2F%2Fimg.buzzfeed.com%2Fbuzzfeed-static%2Fstatic%2F2016-01%2F7%2F11%2Fenhanced%2Fwebdr03%2Fenhanced-buzz-32618-1452185446-0.jpg
 ```
