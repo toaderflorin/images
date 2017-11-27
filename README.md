@@ -2,7 +2,7 @@
 The application was build with VS 2017 Community Edition / .NET Core. Make sure you clone the repo and restore the Nuget packages for the whole solution. The easiest way to run the aplication is to start the tests from the *Images.Tests* project.
 
 ## Considerations
-For ease of maintainability and separation of concerns, the application has been split into three projects *Images*, *Images.Service* (which contains the service layer) and *Images.Tests*. This also makes it easy for the tests to reference the service. I have also included XML comments in the service layer - since this is the layer with reusable components, it makes sense to have them here, but not so much in the tests or in the controllers.
+For ease of maintainability and separation of concerns, the application has been split into three projects: *Images*, *Images.Service* (which contains the service layer) and *Images.Tests*. This also makes it easy for the tests to reference the service. I have also included XML comments in the service layer - since this is the layer with reusable components, it makes sense to have them here, but not so much in the tests or in the controllers.
 
 The color profiles are defined in the *appsettings.json* file, in a custom configuration section.
 
